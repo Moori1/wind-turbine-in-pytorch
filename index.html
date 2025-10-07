@@ -1,0 +1,15 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vindkraftmodell</title>
+</head>
+<body>
+    <h1>Vindkraftmodell</h1>
+    <form action="/predict" method="post">
+        <label for="wind_speed">Ange vindhastighet (m/s):</label><br>
+        <input type="number" id="wind_speed" name="wind_speed" step="0.1" min="2.5" max="25" required><br><br>
+        <input type="submit" value="Beräkna">
+    </form>
+</body>
+</html>
